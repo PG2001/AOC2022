@@ -4,10 +4,10 @@
 #include <string>
 
 using namespace std;
-int one()
+int one_day1()
 {	
 	fstream input;
-	input.open("input.txt");
+	input.open("Day1.txt");
 
 	string line;
 
@@ -21,7 +21,7 @@ int one()
 	while (!input.eof())
 	{
 		getline(input, line);
-		while (line.size() > 0)
+		while (line.size() > 0 && !input.eof())
 		{
 			stringstream ss(line);
 			int temp;
@@ -40,10 +40,10 @@ int one()
 	return max;
 }
 
-int two()
+int two_day1()
 {
 	fstream input;
-	input.open("input.txt");
+	input.open("Day1.txt");
 
 	string line;
 
@@ -58,7 +58,7 @@ int two()
 	while (!input.eof())
 	{
 		getline(input, line);
-		while (line.size() > 0)
+		while (line.size() > 0 && !input.eof())
 		{
 			stringstream ss(line);
 			int temp;
@@ -90,9 +90,11 @@ int two()
 	return max0 + max1 + max2;
 }
 
-int main()
+int main1()
 {
-	cout << two();
+	cout << one_day1();
+	cout << "\n";
+	cout << two_day1();
 
 	return 0;
 }

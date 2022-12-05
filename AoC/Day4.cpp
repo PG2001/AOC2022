@@ -4,7 +4,6 @@
 #include <string>
 #include <algorithm>
 #include <set>
-#include <vector>
 
 using namespace std;
 
@@ -73,7 +72,7 @@ int two_day4()
 }
 
 
-int main()
+int main4()
 {
 
 	cout << one_day4() << '\n';

@@ -13,32 +13,47 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Old">
+      <UniqueIdentifier>{537db9d0-88d3-4a8f-8e8e-66544896be5b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Day1.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Old</Filter>
     </ClCompile>
     <ClCompile Include="Day2.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Old</Filter>
     </ClCompile>
     <ClCompile Include="Day3.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Old</Filter>
     </ClCompile>
     <ClCompile Include="Day4.cpp">
+      <Filter>Old</Filter>
+    </ClCompile>
+    <ClCompile Include="Day5.cpp">
+      <Filter>Old</Filter>
+    </ClCompile>
+    <ClCompile Include="Day6.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="day1.txt">
-      <Filter>Source Files</Filter>
+      <Filter>Old</Filter>
     </Text>
     <Text Include="Day2.txt">
-      <Filter>Source Files</Filter>
+      <Filter>Old</Filter>
     </Text>
     <Text Include="Day3.txt">
-      <Filter>Source Files</Filter>
+      <Filter>Old</Filter>
     </Text>
     <Text Include="Day4.txt">
+      <Filter>Old</Filter>
+    </Text>
+    <Text Include="Day5.txt">
+      <Filter>Old</Filter>
+    </Text>
+    <Text Include="Day6.txt">
       <Filter>Source Files</Filter>
     </Text>
   </ItemGroup>

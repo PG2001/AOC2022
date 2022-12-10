@@ -24,6 +24,7 @@
     <ProjectGuid>{d350f922-7019-4108-b172-99d92b218d4f}</ProjectGuid>
     <RootNamespace>AoC</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>AoC</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -144,7 +145,9 @@
     <ClCompile Include="Day3.cpp" />
     <ClCompile Include="Day4.cpp" />
     <ClCompile Include="Day5.cpp" />
+    <ClCompile Include="Day10.cpp" />
     <ClCompile Include="Day6.cpp" />
+    <ClCompile Include="Day7.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="day1.txt" />
@@ -152,7 +155,9 @@
     <Text Include="Day3.txt" />
     <Text Include="Day4.txt" />
     <Text Include="Day5.txt" />
+    <Text Include="Day10.txt" />
     <Text Include="Day6.txt" />
+    <Text Include="Day7.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

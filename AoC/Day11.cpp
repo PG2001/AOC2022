@@ -203,7 +203,7 @@ long long two_day11()
 	return l * r;
 }
 
-int main()
+int main11()
 {
 	cout << one_day11() << "\n";
 	cout << two_day11() << '\n';

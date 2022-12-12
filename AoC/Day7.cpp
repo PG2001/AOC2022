@@ -256,7 +256,7 @@ int two_day7()
 }
 
 
-int main()
+int main7()
 {
 	cout << one_day7() << "\n";
 	cout << two_day7() << '\n';

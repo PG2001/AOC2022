@@ -189,7 +189,7 @@ long long two_day12()
 	return dist[EY][EX];
 }
 
-int main()
+int main12()
 {
 	cout << one_day12() << "\n";
 	cout << two_day12() << '\n';

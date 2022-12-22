@@ -48,10 +48,16 @@
     <ClCompile Include="Day12.cpp">
       <Filter>Old</Filter>
     </ClCompile>
-    <ClCompile Include="Day19.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Day20.cpp">
+      <Filter>Old</Filter>
+    </ClCompile>
+    <ClCompile Include="Day19.cpp">
+      <Filter>Old</Filter>
+    </ClCompile>
+    <ClCompile Include="Day8.cpp">
+      <Filter>Old</Filter>
+    </ClCompile>
+    <ClCompile Include="Day9.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -86,13 +92,19 @@
     <Text Include="Day12.txt">
       <Filter>Old</Filter>
     </Text>
-    <Text Include="Day19.txt">
-      <Filter>Source Files</Filter>
-    </Text>
     <Text Include="scratch.txt">
       <Filter>Source Files</Filter>
     </Text>
     <Text Include="Day20.txt">
+      <Filter>Old</Filter>
+    </Text>
+    <Text Include="Day19.txt">
+      <Filter>Old</Filter>
+    </Text>
+    <Text Include="Day8.txt">
+      <Filter>Old</Filter>
+    </Text>
+    <Text Include="Day9.txt">
       <Filter>Source Files</Filter>
     </Text>
   </ItemGroup>

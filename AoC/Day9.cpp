@@ -288,7 +288,7 @@ int two_day9()
 	return tailPath.size();
 }
 
-int main()
+int main9()
 {
 	cout << one_day9();
 	cout << "\n";

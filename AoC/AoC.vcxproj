@@ -141,9 +141,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Day1.cpp" />
+    <ClCompile Include="Day13.cpp" />
     <ClCompile Include="Day19.cpp" />
     <ClCompile Include="Day2.cpp" />
     <ClCompile Include="Day20.cpp" />
+    <ClCompile Include="Day23.cpp" />
     <ClCompile Include="Day3.cpp" />
     <ClCompile Include="Day4.cpp" />
     <ClCompile Include="Day5.cpp" />
@@ -171,6 +173,8 @@
     <Text Include="Day9.txt" />
     <Text Include="scratch.txt" />
     <Text Include="Day8.txt" />
+    <Text Include="Day13.txt" />
+    <Text Include="Day23.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
